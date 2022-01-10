@@ -1,0 +1,38 @@
+version: "3.7"
+services:
+  cakephp:
+    image: dlt4edu_service_cakephp:latest
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.cakephp
+    ports:
+      - "4000:80"
+    depends_on:
+      - mysql
+    volumes:
+      - .:/var/www/html/
+    environment:
+      - SECURITY_SALT=88bdb2945d6e62a5441a9ad7adedc383ea85b3933f45089029284f2955ccbd36
+      - MYSQL_HOST=mysql
+      - MYSQL_USERNAME=root
+      - MYSQL_PASSWORD=root
+  mysql:
+    image: dlt4edu_service_mysql:latest
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.mysql
+    ports:
+      - "3030:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=dlt4edu
+
+volumes:
+  mysql_data:
+
+networks:
+  default:
+    external: true
+    name: dlt4edu
