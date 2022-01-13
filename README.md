@@ -1,4 +1,4 @@
-# DLT4EDU-Service CakePHP Application
+# DLT4EDU-Service Application
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
@@ -11,6 +11,20 @@ Rename ``config/.env_local`` to ``.env``
 Create docker network (Linux systems only)
 ```bash
 docker network create dlt4edu
+```
+If you want to start the containers an a non linux system, you have to comment the following lines inside the docker-compose.yml:
+```
+networks:
+default:
+external: true
+name: dlt4edu
+```
+so it looks like this:
+```
+# networks:
+# default:
+# external: true
+# name: dlt4edu
 ```
 
 Check if creation was succesfull
@@ -73,5 +87,7 @@ https://dlt4edu.th-deg.de/users/logout2 <- Logout
 
 Hinweis: Im nicht angemeldeten Zustand kann derzeit nur die Einstiegsseite und die Action "Login" aufgerufen werden.
 Beim Versuch auf ``/my`` zu gehen wird man auf die Einstiegsseite weitergeleitet.
+
+## Project specific information
 
 

@@ -1,0 +1,53 @@
+<import xmlns="https://www.mathplan.de/moses/xsd/default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<list type="bird_program">
+		<bird_program>
+			<id>1</id>
+			<name>Angewandte Informatik (Master)</name>
+			<academyId>THD</academyId>
+			<degreeName>Master or Science</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>2</id>
+			<name>Angewandte Informatik/Infotronik (Bachelor)</name>
+			<academyId>THD</academyId>
+			<degreeName>Bachelor or Science</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>3</id>
+			<name>Angewandte Informatik/Infotronik (Modulstudium)</name>
+			<academyId>THD</academyId>
+			<degreeName>Bachelor or Science</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>4</id>
+			<name>Angewandte Sportwissenschaften (Bachelor)</name>
+			<academyId>THD</academyId>
+			<degreeName>Bachelor or Art</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>5</id>
+			<name>Angewandte Sportwissenschaften (Modulstudium)</name>
+			<academyId>THD</academyId>
+			<degreeName>Bachelor or Art</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>6</id>
+			<name>Angewandte Sportwissenschaften mit Schwerpunkt Interprofessionelle Betreuung im Sport</name>
+			<academyId>THD</academyId>
+			<degreeName>Bachelor or Science</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>7</id>
+			<name>Angewandte Volkswirtschaftslehre (Bachelor)</name>
+			<academyId>THD</academyId>
+			<degreeName>Bachelor or Science</degreeName>
+		</bird_program>
+		<bird_program>
+			<id>8</id>
+			<name>Angewandte Volkswirtschaftslehre (Modulstudium)</name>
+			<academyId>THD</academyId>
+			<degreeName>Master or Science</degreeName>
+		</bird_program>
+		
+	</list>
+</import>

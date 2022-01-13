@@ -76,6 +76,16 @@ return static function (RouteBuilder $routes) {
         $builder->fallbacks();
     });
 
+    $routes->prefix('Api', function (RouteBuilder $routes) {
+        // All routes here will be prefixed with `/admin`, and
+        // have the `'prefix' => 'Admin'` route element added that
+        // will be required when generating URLs for these routes
+        $routes->applyMiddleware();
+        $routes->setExtensions(['json', 'xml']);
+        $routes->fallbacks();
+
+    });
+
     /*
      * If you need a different set of middleware or none at all,
      * open new scope and define routes there.

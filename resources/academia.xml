@@ -1,0 +1,14 @@
+<import xmlns="https://www.mathplan.de/moses/xsd/default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<list type="bird_academy">
+		<bird_academy>
+			<id>THD</id>
+			<name>Technische Hochschule Deggendorf</name>
+			<kurzname>THD</kurzname>
+		</bird_academy>
+		<bird_academy>
+			<id>OTH</id>
+			<name>Ostbayerische Technische Hochschule Regensburg</name>
+			<kurzname>OTH Regensburg</kurzname>
+		</bird_academy>
+	</list>
+</import>

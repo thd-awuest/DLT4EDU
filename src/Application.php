@@ -139,4 +139,5 @@ class Application extends BaseApplication
 
         // Load more plugins here
     }
+
 }
