@@ -1,4 +1,8 @@
-# DLT4EDU-Service Application
+# DLT4EDU
+
+The results of the concept phase can be found [here](docs/dlt4edu-wireframe_final.pdf).
+
+# Software
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
